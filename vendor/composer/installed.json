@@ -2632,6 +2632,49 @@
             "install-path": "../opis/closure"
         },
         {
+            "name": "phannhatquy/mypackage",
+            "version": "10.5.9",
+            "version_normalized": "10.5.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhanNhatQuy/mypackage.git",
+                "reference": "c5e4befcada00d61475564306b692710d1e1b737"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhanNhatQuy/mypackage/zipball/c5e4befcada00d61475564306b692710d1e1b737",
+                "reference": "c5e4befcada00d61475564306b692710d1e1b737",
+                "shasum": ""
+            },
+            "time": "2022-04-23T07:22:11+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PhanNhatQuy\\Mypackage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PhanNhatQuy",
+                    "email": "phannhatquy.tdc2019@gmail.com"
+                }
+            ],
+            "description": "mypackage",
+            "keywords": [
+                "phannhatquy"
+            ],
+            "support": {
+                "issues": "https://github.com/PhanNhatQuy/mypackage/issues",
+                "source": "https://github.com/PhanNhatQuy/mypackage/tree/10.5.9"
+            },
+            "install-path": "../phannhatquy/mypackage"
+        },
+        {
             "name": "phar-io/manifest",
             "version": "2.0.3",
             "version_normalized": "2.0.3.0",
@@ -4190,50 +4233,6 @@
                 }
             ],
             "install-path": "../ramsey/uuid"
-        },
-        {
-            "name": "sangtm97/mypackage",
-            "version": "dev-main",
-            "version_normalized": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sangtm97/mypackage.git",
-                "reference": "93ee3c6bbf5206b2065b461f41dedf45cc7d15df"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sangtm97/mypackage/zipball/93ee3c6bbf5206b2065b461f41dedf45cc7d15df",
-                "reference": "93ee3c6bbf5206b2065b461f41dedf45cc7d15df",
-                "shasum": ""
-            },
-            "time": "2022-03-26T09:07:01+00:00",
-            "default-branch": true,
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Sangtm97\\Mypackage\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "sangtm97",
-                    "email": "minhsangtrieu94@gmail.com"
-                }
-            ],
-            "description": "sangtm97",
-            "keywords": [
-                "sangtm97"
-            ],
-            "support": {
-                "issues": "https://github.com/sangtm97/mypackage/issues",
-                "source": "https://github.com/sangtm97/mypackage/tree/main"
-            },
-            "install-path": "../sangtm97/mypackage"
         },
         {
             "name": "sebastian/cli-parser",
@@ -7715,50 +7714,6 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.4"
             },
             "install-path": "../tijsverkoyen/css-to-inline-styles"
-        },
-        {
-            "name": "truong-hoang-hai123/mypackage",
-            "version": "dev-main",
-            "version_normalized": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TruongHoangHai123/mypackage.git",
-                "reference": "30500b38808292357e4df1a66d8b251fddad2dd2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TruongHoangHai123/mypackage/zipball/30500b38808292357e4df1a66d8b251fddad2dd2",
-                "reference": "30500b38808292357e4df1a66d8b251fddad2dd2",
-                "shasum": ""
-            },
-            "time": "2022-04-09T07:54:27+00:00",
-            "default-branch": true,
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "PhanNhatQuy\\Mypackage\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "TruongHoangHai123",
-                    "email": "truonghoanghai.tdc2019@gmail.com"
-                }
-            ],
-            "description": "mypackage",
-            "keywords": [
-                "truonghoanghai123"
-            ],
-            "support": {
-                "issues": "https://github.com/TruongHoangHai123/mypackage/issues",
-                "source": "https://github.com/TruongHoangHai123/mypackage/tree/main"
-            },
-            "install-path": "../truong-hoang-hai123/mypackage"
         },
         {
             "name": "vlucas/phpdotenv",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "a44da903ecf0042fd5a3f667c4964885",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1804,6 +1804,46 @@
                 "source": "https://github.com/opis/closure/tree/3.6.3"
             },
             "time": "2022-01-27T09:35:39+00:00"
+        },
+        {
+            "name": "phannhatquy/mypackage",
+            "version": "10.5.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhanNhatQuy/mypackage.git",
+                "reference": "c5e4befcada00d61475564306b692710d1e1b737"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhanNhatQuy/mypackage/zipball/c5e4befcada00d61475564306b692710d1e1b737",
+                "reference": "c5e4befcada00d61475564306b692710d1e1b737",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhanNhatQuy\\Mypackage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PhanNhatQuy",
+                    "email": "phannhatquy.tdc2019@gmail.com"
+                }
+            ],
+            "description": "mypackage",
+            "keywords": [
+                "phannhatquy"
+            ],
+            "support": {
+                "issues": "https://github.com/PhanNhatQuy/mypackage/issues",
+                "source": "https://github.com/PhanNhatQuy/mypackage/tree/10.5.9"
+            },
+            "time": "2022-04-23T07:22:11+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -7593,5 +7633,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

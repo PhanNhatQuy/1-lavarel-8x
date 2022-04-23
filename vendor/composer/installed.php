@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '56e28b07e824b94b456f996b3fa05a2fe09d09d8',
+        'reference' => '6b91d1a5fb18741635185d029f002c728b7412ec',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -391,7 +391,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '56e28b07e824b94b456f996b3fa05a2fe09d09d8',
+            'reference' => '6b91d1a5fb18741635185d029f002c728b7412ec',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -524,6 +524,15 @@
             'install_path' => __DIR__ . '/../opis/closure',
             'aliases' => array(),
             'reference' => '3d81e4309d2a927abbe66df935f4bb60082805ad',
+            'dev_requirement' => false,
+        ),
+        'phannhatquy/mypackage' => array(
+            'pretty_version' => '10.5.9',
+            'version' => '10.5.9.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phannhatquy/mypackage',
+            'aliases' => array(),
+            'reference' => 'c5e4befcada00d61475564306b692710d1e1b737',
             'dev_requirement' => false,
         ),
         'phar-io/manifest' => array(
@@ -790,17 +799,6 @@
             'replaced' => array(
                 0 => '4.2.3',
             ),
-        ),
-        'sangtm97/mypackage' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../sangtm97/mypackage',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
-            'reference' => '93ee3c6bbf5206b2065b461f41dedf45cc7d15df',
-            'dev_requirement' => false,
         ),
         'sebastian/cli-parser' => array(
             'pretty_version' => '1.0.1',
@@ -1226,17 +1224,6 @@
             'install_path' => __DIR__ . '/../tijsverkoyen/css-to-inline-styles',
             'aliases' => array(),
             'reference' => 'da444caae6aca7a19c0c140f68c6182e337d5b1c',
-            'dev_requirement' => false,
-        ),
-        'truong-hoang-hai123/mypackage' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../truong-hoang-hai123/mypackage',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
-            'reference' => '30500b38808292357e4df1a66d8b251fddad2dd2',
             'dev_requirement' => false,
         ),
         'vlucas/phpdotenv' => array(
